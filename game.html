@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Клікер — Гра</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/game.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1> Клікер — Гра</h1>
+  </header>
+
+  <nav class="nav" aria-label="Головне меню">
+    <div class="nav-inner">
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="tour.html">Тур</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="game.html" class="active" aria-current="page">Гра</a></li>
+        <li><a href="albums.html">Альбоми</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main">
+    <section class="content" style="text-align:center;">
+      <h2>Клікер — натискай і набирай очки!</h2>
+      <p class="lead">Твоє завдання — натиснути 1488!</p>
+
+      <div class="clicker-container">
+        <p id="score">Очки: 0</p>
+        <button id="click-btn" class="click-btn"> Натисни мене</button>
+        <button id="reset-btn" class="reset-btn"> Скинути</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 M8L8TH</p>
+  </footer>
+</body>
+</html>
+
+<!-- Модальне вікно -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <h2> Вітаємо! </h2>
+    <p>Ви досягли 1488 очок!</p>
+    <button id="close-modal">Закрити</button>
+  </div>
+</div>
