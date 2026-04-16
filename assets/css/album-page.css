@@ -1,0 +1,21 @@
+body{font-family:Runic,sans-serif;background:#0a0a0a;color:#f5f5f5;margin:0;padding:0;}
+.header{text-align:center;padding:40px;background:#000;}
+.album-page{max-width:700px;margin:40px auto;padding:20px;text-align:center;}
+.album-page img{max-width:300px;border-radius:10px;box-shadow:0 0 20px rgba(255,255,255,0.1);}
+.back-btn{display:inline-block;margin-top:20px;padding:10px 20px;background:#111;color:#fff;text-decoration:none;border-radius:6px;}
+
+.lyrics {
+  max-width: 900px;
+  margin: 40px auto;
+  column-count: 2;          /* 2 стовпці */
+  column-gap: 50px;         /* відстань між ними */
+  line-height: 1.7;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.lyrics p {
+  break-inside: avoid;      /* не ламати абзаци */
+  margin-bottom: 15px;
+  color: #e6e6e6;
+}
